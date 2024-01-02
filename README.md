@@ -1,5 +1,7 @@
 # Python Screen Sharing via VidStream
 
+![Thumbnail](thumbnail.jpg)
+
 This project facilitates screen sharing between a client and server using Python. The client (`sender.py`) streams its desktop to the server (`receiver.py`), which processes the image data and displays it. This enables multiple clients to share their screens simultaneously as well. Additionally, the implementation uses threads to allow stopping the sharing process at any time.
 
 ## Prerequisites
